@@ -24,7 +24,7 @@ export function RepositoryList() {
 
       <ul>
         {repositories.map((repository: Repository) => {
-          return <RepositoryItem key={repository.name} repositor={repository} />
+          return <RepositoryItem key={repository.name} repository={repository} />
         })}
       </ul>
     </section>

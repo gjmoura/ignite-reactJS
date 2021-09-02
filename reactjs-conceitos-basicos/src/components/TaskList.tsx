@@ -25,6 +25,8 @@ export function TaskList() {
       setTasks([...tasks,newElement])
       console.log(newElement.id)
     }
+
+    setNewTaskTitle('');
   }
 
   function handleToggleTaskCompletion(id: number) {
